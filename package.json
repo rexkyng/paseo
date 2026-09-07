@@ -10,12 +10,14 @@
     "check:write": "biome check --write .",
     "test": "bun test ./tests",
     "test:coverage": "bun test --coverage ./tests",
+    "package:release": "bun scripts/package-release.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.10",
     "@getpaseo/plugin": "^0.7.2",
     "@types/bun": "^1.4.0",
+    "fflate": "^0.8.3",
     "typescript": "^5.9.3"
   }
 }
