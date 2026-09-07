@@ -17,7 +17,6 @@ export default function contribute(plugin: PluginContext) {
     },
   });
 
-  // WIP
   plugin.addTheme({
     id: "alucard",
     name: "Alucard",
